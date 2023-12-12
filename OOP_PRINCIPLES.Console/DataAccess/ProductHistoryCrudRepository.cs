@@ -17,8 +17,6 @@ namespace OOP_PRINCIPLES.Console.DataAccess
         {
             _context = context;
             ListSet = _context.ProductPriceHistories;
-
-
         }
 
         public void DeleteRecord(int id)
